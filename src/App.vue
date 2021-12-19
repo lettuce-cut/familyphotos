@@ -4,8 +4,8 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/browse">Browse</router-link> | 
       <router-link to='/view'>View Photos</router-link> | 
-      <router-link class='people' v-if="cartSize==1">{{cartSize}} person chosen</router-link>
-      <router-link class='people' v-if="cartSize!=1">{{cartSize}} people chosen</router-link>
+      <router-link class='people' to='#' v-if="cartSize==1">{{cartSize}} person chosen</router-link>
+      <router-link class='people' to='#' v-if="cartSize!=1">{{cartSize}} people chosen</router-link>
     </div>
     <router-view/>
     <footer>
