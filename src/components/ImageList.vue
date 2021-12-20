@@ -18,6 +18,7 @@ export default {
   methods:{
     addToCart(image) {
       this.$root.$data.cart.push(image)
+      document.getElementByTagName("button").style.background='red';
     },
   }
 }
